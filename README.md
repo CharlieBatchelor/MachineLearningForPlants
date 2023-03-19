@@ -13,7 +13,7 @@ In the future, for something like leaf counting or semantic segmentation, it mig
 
 ![This is an image](FirstProject/output/plots/sample_image_rgb_split.png)
 
-## Example Performance Output Plot
+##Example Performance Output Plot
 
 The ```full_pipeline.py``` script will plot the metrics in the output directory, should look something like the following.
 
