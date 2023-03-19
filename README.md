@@ -1,9 +1,7 @@
 # MachineLearningForPlants
 Repository for machine learning practice applied to plants.
 
-# Data Pipeline
-
-The script can be used as following: ```python full_pipeline.py -d <data_location>``` where the data location points to a directory containing the data. That directory should also contain only subdirectories which are the labels of the images. That is, all the images you wish to train and validate and test on should have been categorised into sub directories already. From there, we do the following:
+The main script can be used as following: ```python full_pipeline.py -d <data_location>``` where the data location points to a directory containing the data. That directory should also contain only subdirectories which are the labels of the images. That is, all the images you wish to train and validate and test on should have been categorised into sub directories already. From there, we do the following:
 
 1. Read in the input data, and create a dataset ready to train and test on.
 2. Build an example convolutional neural network (CNN) and pass the split data for training, validation and testing.
