@@ -12,7 +12,7 @@ print("Shape of images dataset is: ", images.shape)
 batch_size, height, width, channels = images.shape
 
 # Create two filters, this is manual creation. A CNN would learn them itself.
-filters = np.zeros(shape=(7,7, channels, 2), dtype=np.float32) # x,y = 7,7 (size), channels = 3 (RGB), 2 (no. filters)
+filters = np.zeros(shape=(7,7, channels, 2), dtype=np.float32)  # x,y = 7,7 (size), channels = 3 (RGB), 2 (no. filters)
 filters[:, 3, :, 0] = 1    # Vertical line
 filters[3, :, :, 1] = 1    # Horizontal Line
 
